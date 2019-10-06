@@ -1,23 +1,67 @@
-header{
-    padding: 30px;
+header {
+    padding: 30px 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
-header a{
+header a {
     color: 6001D1;
     text-decoration: none;
 }
 
-header .logo{
-    display: inline-block;
-    float: left;
+header:after {
+    content: " ";
+    display: table;
+    clear: both;
 }
 
-header .menu{
-    display: inline-block; 
-    float: left;
-}
-
-header .logo{
+header .logo {
     display: inline-block;
     float: left;
+    margin-right: 28px;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header .menu {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+header .menu a {
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+header .header-buttons {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+}
+
+header .header-buttons .cart-btn {
+    background-color: #DB133A;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+header .header-buttons .login-btn {
+    background-color: #ED7624;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
 }
