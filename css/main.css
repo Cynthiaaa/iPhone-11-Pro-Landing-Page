@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 @import "landing-page/header.css";
 @import "landing-page/reset.css";
+@import "landing-page/top-section.css";
 
 /*
 6001D1 blue-purple
@@ -11,3 +12,8 @@ DB133A red
 ED7624 orange
 */
 
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
