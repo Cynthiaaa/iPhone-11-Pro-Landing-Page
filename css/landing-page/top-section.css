@@ -1,4 +1,5 @@
 #top-jumbo {
+    padding: 0 0 400px;
     background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 40%, #ed8081 68%, #fcd1d9 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #ffffff 0%, #ffffff 40%, #ed8081 68%, #fcd1d9 100%);
@@ -14,17 +15,79 @@
 }
 
 #top-jumbo .left-side {
-    width: 50%; 
+    width: 50%;
     display: inline-block;
     float: left;
 }
 
+#top-jumbo .left-side .phone-name {
+    font-size: 8rem;
+    font-weight: 700;
+    opacity: 0.1;
+    color: #ED7624;
+    position: relative;
+    left: -5px;
+    top: 70px;
+    z-index: 1;
+}
+
+#top-jumbo .left-side .product-info {
+    margin-top: 30px;
+}
+
+#top-jumbo .left-side .product-info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+#top-jumbo .left-side .product-info p {
+    color: #ED8081;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    width: 80%;
+}
+
+#top-jumbo .left-side .product-info .opt-in {
+    background: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#top-jumbo .left-side .product-info .opt-in .fa-envelope {
+    background: white;
+    color: #DB133A;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+#top-jumbo .left-side .product-info .opt-in input[type="email"] {
+    background: white;
+    border: none;
+    padding;
+    10px;
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+#top-jumbo .left-side .product-info button {
+    background: #DB133A;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
 #top-jumbo .right-side {
-    width: 50%; 
+    width: 50%;
     display: inline-block;
     float: left;
 }
 
 #top-jumbo .right-side img {
-    width: 100%; 
+    width: 100%;
 }
