@@ -1,0 +1,23 @@
+header{
+    padding: 30px;
+}
+
+header a{
+    color: 6001D1;
+    text-decoration: none;
+}
+
+header .logo{
+    display: inline-block;
+    float: left;
+}
+
+header .menu{
+    display: inline-block; 
+    float: left;
+}
+
+header .logo{
+    display: inline-block;
+    float: left;
+}
