@@ -1,0 +1,77 @@
+#features {
+	position: relative;
+}
+
+#features .features-container {
+	position: absolute;
+	top: -140px;
+}
+
+#features .features-container .features-hightlights {
+	background: #DB133A;
+	width: 60%;
+	display: inline-block;
+	float: left;
+	padding: 45px;
+}
+
+#features .features-container .features-hightlights h5 {
+	color: #ED8081;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+#features .features-container .features-hightlights h3 {
+	color: white;
+	font-size: 2.1rem;
+	margin-bottom: 10px;
+}
+
+#features .features-container .features-hightlights .features-list li {
+	color: white;
+	list-style: none;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+#features .features-container .features-hightlights .features-list .circle {
+	color: white;
+	list-style: none;
+	background: #ED8081;
+	display: inline-block;
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+}
+
+#features .features-container .features-hightlights .features-list .circle .fas {
+	position: absolute;
+	top: 4px;
+	left: 2px;
+}
+
+#features .features-container .features-hightlights .learn-more {
+	background: white;
+	border-radius: 50px;
+	padding: 10px;
+	width: 50%;
+	text-align: center;
+	font-weight: 600;
+}
+
+#features .features-container .features-hightlights .learn-more a {
+	text-decoration: none;
+	color: #ED8081;
+}
+
+#features .features-container .technical-info {
+	background: white;
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
