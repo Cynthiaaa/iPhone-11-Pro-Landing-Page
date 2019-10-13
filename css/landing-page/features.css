@@ -1,16 +1,20 @@
 #features {
 	position: relative;
+    top: -140px;
+    width: 100%;
 }
 
 #features .features-container {
-	position: absolute;
-	top: -140px;
-    width: 100%;
+  position: relative;
+}
+
+#features .features-container .features-bg{
+  position: absolute;
 }
 
 #features .features-container .features-hightlights {
 	background: #DB133A;
-	width: 25%;
+	width: 30%;
 	display: inline-block;
 	float: left;
 	padding: 45px;
@@ -27,6 +31,10 @@
 	color: white;
 	font-size: 2.1rem;
 	margin-bottom: 10px;
+}
+
+#features .features-container .features-hightlights .features-list {
+	margin-bottom: 2rem;
 }
 
 #features .features-container .features-hightlights .features-list li {
@@ -63,6 +71,7 @@
 	width: 50%;
 	text-align: center;
 	font-weight: 600;
+    display: inline-block;
 }
 
 #features .features-container .features-hightlights .learn-more a {
@@ -73,4 +82,5 @@
 #features .features-container .technical-info {
 	background: white;
 	display: inline-block;
+    width: 60%;
 }
