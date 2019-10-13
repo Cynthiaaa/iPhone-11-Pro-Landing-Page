@@ -1,86 +1,123 @@
 #features {
-	position: relative;
+    position: relative;
     top: -140px;
     width: 100%;
 }
 
 #features .features-container {
-  position: relative;
+    position: relative;
 }
 
-#features .features-container .features-bg{
-  position: absolute;
+#features .features-container .features-bg {
+    position: absolute;
 }
 
 #features .features-container .features-hightlights {
-	background: #DB133A;
-	width: 30%;
-	display: inline-block;
-	float: left;
-	padding: 45px;
+    background: #DB133A;
+    width: 30%;
+    display: inline-block;
+    float: left;
+    padding: 45px;
 }
 
 #features .features-container .features-hightlights h5 {
-	color: #ED8081;
-	font-size: 1.5rem;
-	text-transform: uppercase;
-	margin-bottom: 10px;
+    color: #ED8081;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 #features .features-container .features-hightlights h3 {
-	color: white;
-	font-size: 2.1rem;
-	margin-bottom: 10px;
+    color: white;
+    font-size: 2.1rem;
+    margin-bottom: 10px;
 }
 
 #features .features-container .features-hightlights .features-list {
-	margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 #features .features-container .features-hightlights .features-list li {
-	color: white;
-	list-style: none;
-	margin-bottom: 10px;
-	font-size: 1.2rem;
-	font-weight: 300;
+    color: white;
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 #features .features-container .features-hightlights .features-list .circle {
-	color: white;
-	list-style: none;
-	background: #ED8081;
-	display: inline-block;
-	border-radius: 50%;
-	width: 26px;
-	height: 26px;
-	position: relative;
-	top: 5px;
-	margin-right: 10px;
+    color: white;
+    list-style: none;
+    background: #ED8081;
+    display: inline-block;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
 }
 
 #features .features-container .features-hightlights .features-list .circle .fas {
-	position: absolute;
-	top: 4px;
-	left: 2px;
+    position: absolute;
+    top: 4px;
+    left: 2px;
 }
 
 #features .features-container .features-hightlights .learn-more {
-	background: white;
-	border-radius: 50px;
-	padding: 10px;
-	width: 50%;
-	text-align: center;
-	font-weight: 600;
+    background: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
     display: inline-block;
 }
 
 #features .features-container .features-hightlights .learn-more a {
-	text-decoration: none;
-	color: #ED8081;
+    text-decoration: none;
+    color: #ED8081;
 }
 
 #features .features-container .technical-info {
-	background: white;
-	display: inline-block;
+    background: white;
+    display: inline-block;
     width: 60%;
+    float: left;
+    position: relative;
+}
+
+#features .features-container .technical-info .refresh {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+}
+
+#features .features-container .technical-info .refresh .fas {
+    position: relative;
+    color: red;
+    font-size: 2rem;
+    top: 9px;
+    left: 8px;
+}
+
+
+#features .features-container .technical-info .tech-box {
+    float: left;
+    height: 179px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: #ED8081;
+    font-size: 1.3rem;
+}
+
+#features .features-container .technical-info .tech-box .fas {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 40px;
 }
