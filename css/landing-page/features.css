@@ -5,11 +5,12 @@
 #features .features-container {
 	position: absolute;
 	top: -140px;
+    width: 100%;
 }
 
 #features .features-container .features-hightlights {
 	background: #DB133A;
-	width: 60%;
+	width: 25%;
 	display: inline-block;
 	float: left;
 	padding: 45px;
@@ -71,7 +72,5 @@
 
 #features .features-container .technical-info {
 	background: white;
-	width: 40%;
 	display: inline-block;
-	float: right;
 }
