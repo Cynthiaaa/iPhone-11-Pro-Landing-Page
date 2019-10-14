@@ -85,6 +85,7 @@
     width: 60%;
     float: left;
     position: relative;
+    border: 1px solid red;
 }
 
 #features .features-container .technical-info .refresh {
@@ -108,7 +109,7 @@
 
 #features .features-container .technical-info .tech-box {
     float: left;
-    height: 189px;
+    height: 187px;
     display: inline-block;
     width: 50%;
     text-align: center;

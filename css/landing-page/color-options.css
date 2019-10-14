@@ -1,0 +1,26 @@
+#colors-options {
+    padding: 50px;
+}
+
+#colors-options:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#colors-options .left-side{
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+
+#colors-options .right-side{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+
+#colors-options .right-side .swatch-colors{
+    background: white; 
+    padding: 20px;
+}
