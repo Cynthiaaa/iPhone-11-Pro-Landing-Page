@@ -1,0 +1,36 @@
+footer {
+    background: #DB133A;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+footer h2 span {
+    font-weight: 700; 
+}
+
+footer .footer-links li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+footer .footer-links li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+footer .social-media li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-weight: 600;
+    padding: 20px 20px;
+    font-size: 2rem;
+}
+
+
