@@ -29,8 +29,13 @@ footer .social-media li {
     display: inline-block;
     padding: 20px 20px;
     font-weight: 600;
-    padding: 20px 20px;
     font-size: 2rem;
 }
+
+footer .social-media li a {
+    text-decoration: none;
+    color: white;
+}
+
 
 
