@@ -10,17 +10,28 @@
 
 #colors-options .left-side{
     width: 60%;
+}
+
+#colors-options .left-side img {
+    width: 80%;
     display: inline-block;
     float: left;
+    margin: 0 auto;
 }
+
 
 #colors-options .right-side{
     width: 40%;
     display: inline-block;
-    float: left;
+    padding-left: 100px;
 }
 
 #colors-options .right-side .swatch-colors{
     background: white; 
     padding: 20px;
+}
+
+#colors-options .right-side .swatch-colors .circle{
+    width: 70px;
+    height: 70px;
 }
