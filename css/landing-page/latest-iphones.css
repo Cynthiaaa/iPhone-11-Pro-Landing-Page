@@ -1,0 +1,48 @@
+#latest-iphones {
+    padding: 50px 0;
+}
+
+#latest-iphones .head-products {
+    padding: 50px 0;
+}
+
+#latest-iphones .head-products:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#latest-iphones .head-products h1 {
+    color: #ED8081;
+    font-size: 4rem;
+    max-width: 400px;
+    width: 100%;
+    float: left;
+    display: inline-block;
+}
+
+#latest-iphones .head-products .directions {
+    float: right;
+    display: inline-block;
+    border: 1px solid #ED8081;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+}
+
+#latest-iphones .head-products .directions .move-left {
+    float: left;
+    padding: 20px 70px;
+    font-size: 3rem;
+    background: #ED8081;
+    color: white;
+    border: 1px solid white;
+}
+
+#latest-iphones .head-products .directions .move-right {
+    float: right;
+    padding: 20px 70px;
+    font-size: 3rem;
+    background: white;
+    color: #ED8081;
+}
