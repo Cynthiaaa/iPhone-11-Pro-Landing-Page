@@ -5,14 +5,7 @@
 @import "landing-page/features.css";
 @import "landing-page/color-options.css";
 @import "landing-page/footer.css";
-/*
-6001D1 blue-purple
-B288E7 lila
-8D49E7 violet
-B3B3F1 light violet
-DB133A red
-ED7624 orange
-*/
+@import "landing-page/latest-iphones.css";
 
 .container {
     max-width: 1200px;
