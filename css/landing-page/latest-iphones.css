@@ -1,5 +1,6 @@
 #latest-iphones {
     padding: 50px 0;
+    margin-top: 60px;
 }
 
 #latest-iphones .head-products {
@@ -48,6 +49,10 @@
     color: #ED8081;
 }
 
+#latest-iphones .body {
+    padding: 100px 0;
+}
+
 #latest-iphones .latest-products:after {
     content: "";
     display: table;
@@ -64,10 +69,35 @@
     width: 300px;
     height: 300px;
     background: red; 
+    margin: auto 0;
     margin: 0 auto;
+    position: relative;
 }
 
 #latest-iphones .latest-products .column .bg-square img {
-   width: 80%; 
+    width: 60%; 
     position: absolute;
+    top: -25px;
+    left: 20%;
+}
+
+#latest-iphones .latest-products .column .bg-square .cart {
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    border: 10px solid white;
+    font-size: 1.1rem;
+    top: -25px;
+    right: -10px;
+    border-radius: 50%; 
+    background: red; 
+}
+
+#latest-iphones .latest-products .column .bg-square .fas {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
 }
