@@ -65,32 +65,37 @@
     text-align: center;
 }
 
-#latest-iphones .latest-products .column .bg-square{
+#latest-iphones .latest-products .column .bg-square {
     width: 300px;
     height: 300px;
-    background: red; 
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 19%, #fff2f2 38%, #f9bdbd 69%, #f97777 96%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 19%, #fff2f2 38%, #f9bdbd 69%, #f97777 96%);
+    /* Chrome10-25,Safari5.1-6 */
     margin: auto 0;
     margin: 0 auto;
     position: relative;
 }
 
 #latest-iphones .latest-products .column .bg-square img {
-    width: 60%; 
+    width: 60%;
     position: absolute;
     top: -25px;
     left: 20%;
 }
 
 #latest-iphones .latest-products .column .bg-square .cart {
-    width: 40px; 
+    width: 40px;
     height: 40px;
     position: absolute;
     border: 10px solid white;
     font-size: 1.1rem;
     top: -25px;
     right: -10px;
-    border-radius: 50%; 
-    background: red; 
+    border-radius: 50%;
+    background: red;
 }
 
 #latest-iphones .latest-products .column .bg-square .fas {
@@ -100,4 +105,18 @@
     right: 0;
     top: 10px;
     color: white;
+}
+
+#latest-iphones .latest-products .column .line {
+    width: 20%;
+    height: 2px;
+    margin: 20px auto; 
+    background: red; 
+    display: inline-block;
+}
+
+#latest-iphones .latest-products .column .price {
+    color: #ED8081; 
+    font-size: 1.5rem; 
+    
 }
