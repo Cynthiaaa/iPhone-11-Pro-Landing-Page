@@ -59,6 +59,11 @@
     clear: both;
 }
 
+#latest-iphones .latest-products {
+   padding-top: 80px;
+}
+
+
 #latest-iphones .latest-products .column {
     width: 33.33%;
     float: left;
@@ -110,13 +115,85 @@
 #latest-iphones .latest-products .column .line {
     width: 20%;
     height: 2px;
-    margin: 20px auto; 
-    background: red; 
+    margin: 20px auto;
+    background: red;
     display: inline-block;
 }
 
 #latest-iphones .latest-products .column .price {
-    color: #ED8081; 
-    font-size: 1.5rem; 
-    
+    color: #ED8081;
+    font-size: 1.5rem;
+}
+
+/* Newsletter Section */
+#latest-iphones .newsletter {
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+}
+
+#latest-iphones .newsletter img {
+    width: 20%;
+    z-index: 1;
+    top: 0;
+    left: 30%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) invert(100%);
+    opacity: 0.3;
+}
+
+#latest-iphones .newsletter .email-box {
+    z-index: 2;
+    position: relative;
+    top: -200px;
+}
+
+#latest-iphones .newsletter .email-box h2 {
+   font-size: 2rem;
+    color: red;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#latest-iphones .newsletter .email-box .newsletter-area {
+    display: inline-block;
+    background: white;
+    border: 1px #ED8081 solid;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#latest-iphones .newsletter .email-box .newsletter-area .email {
+    display: inline-block;
+}
+
+#latest-iphones .newsletter .email-box .newsletter-area .name {
+    display: inline-block;
+}
+
+#latest-iphones .newsletter .email-box .newsletter-area .fa-envelope {
+    background: white;
+    color: #DB133A;
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+#latest-iphones .newsletter .email-box .newsletter-area  input[type="fname"] {
+    border: none;
+    font-size: 1.1rem;
+}
+
+#latest-iphones .newsletter .email-box .newsletter-area input[type="email"] {
+    border: none;
+    font-size: 1.1rem;
+}
+
+#latest-iphones .newsletter .email-box .newsletter-area button {
+    background: #DB133A;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 10px;
+    text-transform: uppercase;
 }

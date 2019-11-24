@@ -67,8 +67,7 @@
 #top-jumbo .left-side .product-info .opt-in input[type="email"] {
     background: white;
     border: none;
-    padding;
-    10px;
+    padding:10px;
     margin: 20px;
     font-size: 1.1rem;
 }
