@@ -24,3 +24,19 @@
     -moz-box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, 0.3);
 }
+
+
+/* Desktop Devices */
+@media only screen and (max-device-width: 1215px) { 
+
+}
+
+/* Tablets Devices */
+@media only screen and (max-device-width: 1023px) { 
+
+}
+
+/* Mobiles Devices */
+@media only screen and (max-device-width: 767px) { 
+   
+}

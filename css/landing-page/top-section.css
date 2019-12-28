@@ -1,5 +1,5 @@
 #top-jumbo {
-    padding: 0 0 400px;
+    padding: 0 0 300px;
     background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 40%, #ed8081 68%, #fcd1d9 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #ffffff 0%, #ffffff 40%, #ed8081 68%, #fcd1d9 100%);
@@ -67,8 +67,6 @@
 #top-jumbo .left-side .product-info .opt-in input[type="email"] {
     background: white;
     border: none;
-    padding:10px;
-    margin: 20px;
     font-size: 1.1rem;
 }
 
@@ -90,4 +88,47 @@
 
 #top-jumbo .right-side img {
     width: 100%;
+}
+
+/* Tablets Devices */
+@media only screen and (max-width: 1023px) { 
+  #top-jumbo .left-side .product-info .opt-in input[type="email"] {
+    background: white;
+    border: none;
+    font-size: 1.1rem;
+ }
+}
+
+/* Mobiles Devices */
+@media only screen and (max-width: 767px) { 
+
+    #top-jumbo .left-side {
+    width: 100%;
+ }
+   #top-jumbo .left-side .phone-name {
+    font-size: 6rem;
+ }
+    #top-jumbo .left-side .product-info .opt-in .fa-envelope {
+    position: relative;
+    margin-left: 10px;
+ }
+    #top-jumbo .left-side .product-info .opt-in input[type="email"] {
+    background: white;
+    border: none;
+    font-size: 1.1rem;
+ }
+    #top-jumbo .left-side .product-info {
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+    #top-jumbo .left-side .product-info button {
+    background: #DB133A;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 10px;
+    text-transform: uppercase;
+ }   
+    
 }

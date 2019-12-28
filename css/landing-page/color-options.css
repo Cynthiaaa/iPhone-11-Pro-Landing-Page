@@ -129,3 +129,36 @@
     text-decoration: none;
     color: #ED8081;
 }
+
+/* Tablets Devices */
+@media only screen and (max-width: 1023px) { 
+  #colors-options .left-side {
+    width: 60%;
+    float: right;
+    margin-bottom: 30px;
+  }
+    
+    #colors-options .left-side img {
+    width: 90%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobiles Devices */
+@media only screen and (max-width: 767px) { 
+
+    #colors-options .left-side {
+    width: 60%;
+    float: right;
+    margin-bottom: 30px;
+  }
+    
+    #colors-options .left-side img {
+    width: 90%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+  }
+}

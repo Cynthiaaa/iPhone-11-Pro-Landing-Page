@@ -122,3 +122,66 @@
     margin-bottom: 1.5rem;
     margin-top: 40px;
 }
+
+/* Desktop Devices */
+@media only screen and (max-width: 1215px) { 
+    #features .features-container .features-hightlights {
+    background: #DB133A;
+    width: 30%;
+    display: inline-block;
+    float: left;
+    padding: 45px;
+  }
+
+    #features .features-container .technical-info {
+    background: white;
+    display: inline-block;
+    width: 60%;
+    float: left;
+    position: relative;
+    border: 1px solid red;
+  }
+}
+
+/* Tablets Devices */
+@media only screen and (max-width: 1023px) { 
+    
+    #features .features-container .features-hightlights {
+    background: #DB133A;
+    width: 88%;
+    display: inline-block;
+    float: left;
+    padding: 45px;
+    margin-bottom:20px;
+}
+    
+    #features .features-container .technical-info {
+    background: white;
+    display: inline-block;
+    width: 97%;
+    float: left;
+    position: relative;
+    border: 1px solid red;
+  }
+}
+
+/* Mobiles Devices */
+@media only screen and (max-width: 767px) { 
+   
+    #features .features-container .features-hightlights {
+    background: #DB133A;
+    width: 85%;
+    display: inline-block;
+    float: left;
+    padding: 45px;
+    margin-bottom:20px;
+}
+    
+    #features .features-container .technical-info {
+    background: white;
+    display: inline-block;
+    width: 97%;
+    float: left;
+    position: relative;
+    border: 1px solid red;
+}
